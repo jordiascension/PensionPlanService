@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Distributed Services", "1.Distributed Services", "{7BB88091-551A-4684-A0A6-D0CE162AE874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PensionPlan.Web.Api", "PensionPlan.Web.Api\PensionPlan.Web.Api.csproj", "{A06F41C4-EB99-449A-A506-C96AB2834676}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application Services", "2.Application Services", "{4F0E4B79-A8EF-4596-BCF9-72A33D48AA34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PensionPlan.Application.Services", "PensionPlan.Application.Services\PensionPlan.Application.Services.csproj", "{E3A73E72-7383-443C-8576-1959107E1A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PensionPlan.Web.Api.Unit.Tests", "PensionPlan.Web.Api.Unit.Tests\PensionPlan.Web.Api.Unit.Tests.csproj", "{641DE264-6D45-42DF-84CF-CB3FD6356AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PensionPlan.Application.Services.Integration.Tests", "PensionPlan.Application.Services.Integration.Tests\PensionPlan.Application.Services.Integration.Tests.csproj", "{358CCCDF-8ABD-4803-9886-14EDDFC4BEA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A06F41C4-EB99-449A-A506-C96AB2834676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06F41C4-EB99-449A-A506-C96AB2834676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06F41C4-EB99-449A-A506-C96AB2834676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06F41C4-EB99-449A-A506-C96AB2834676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A73E72-7383-443C-8576-1959107E1A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A73E72-7383-443C-8576-1959107E1A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A73E72-7383-443C-8576-1959107E1A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A73E72-7383-443C-8576-1959107E1A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641DE264-6D45-42DF-84CF-CB3FD6356AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641DE264-6D45-42DF-84CF-CB3FD6356AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641DE264-6D45-42DF-84CF-CB3FD6356AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641DE264-6D45-42DF-84CF-CB3FD6356AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358CCCDF-8ABD-4803-9886-14EDDFC4BEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358CCCDF-8ABD-4803-9886-14EDDFC4BEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358CCCDF-8ABD-4803-9886-14EDDFC4BEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358CCCDF-8ABD-4803-9886-14EDDFC4BEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A06F41C4-EB99-449A-A506-C96AB2834676} = {7BB88091-551A-4684-A0A6-D0CE162AE874}
+		{E3A73E72-7383-443C-8576-1959107E1A7E} = {4F0E4B79-A8EF-4596-BCF9-72A33D48AA34}
+		{641DE264-6D45-42DF-84CF-CB3FD6356AC3} = {7BB88091-551A-4684-A0A6-D0CE162AE874}
+		{358CCCDF-8ABD-4803-9886-14EDDFC4BEA5} = {4F0E4B79-A8EF-4596-BCF9-72A33D48AA34}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E73F9E73-8459-46FD-9B68-E556B838A681}
+	EndGlobalSection
+EndGlobal
